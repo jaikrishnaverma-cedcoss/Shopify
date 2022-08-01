@@ -1,0 +1,491 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    /* font-family: 'Baloo Tamma 2'; */
+    font-family: 'Be Vietnam Pro';
+
+}
+
+.container {
+    width: 100%;
+    /* max-width: 1600px; */
+    background-color: #fbf7ed;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    /* justify-content: space-between; */
+    width: 96%;
+    padding: 1.4% 2%;
+    color: black;
+    font-weight: 1000;
+    font-size: 30px;
+
+    align-items: center;
+}
+.form
+{
+    margin-bottom: 2%;
+}
+#logo {
+    width: 100%;
+    padding: 2%;
+}
+
+.col button {
+    font-size: 21px;
+    background-color: transparent;
+}
+
+.col1 {
+    width: 10%;
+    margin: 0 2%;
+}
+
+.col2 {
+    width: 40%
+}
+
+button {
+    margin: 0 1.5%;
+}
+
+.col3 {
+    width: 42%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xc {
+    display: flex;
+    align-items: center;
+}
+
+#tryFr,
+.inpubtn {
+    background-color: rgb(58, 128, 99) !important;
+    padding: 2.5% 3.6%;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.row2 .col {
+    width: 50%;
+}
+
+.row2 {
+    padding-left: 4%;
+    width: 96%;
+}
+
+#heading {
+    font-size: 60px;
+    font-weight: 900;
+    color: rgb(29, 68, 52);
+}
+
+.col21 {
+    padding: 10% 0 0 0;
+}
+
+#p1 {
+    margin-top: 5%;
+    color: rgb(124, 124, 124);
+    font-size: 27px;
+
+}
+
+.inpu {
+    width: 60%;
+    height: 60px;
+    border: 2px solid rgb(29, 68, 52);
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+.form {
+    margin-top: 5%;
+}
+
+.row3 {
+    background-color: #004c3f;
+}
+
+.head2 p:nth-child(1) {
+    font-size: 50px;
+
+}
+
+.head2 p:nth-child(2) {
+    margin-top: 1%;
+    font-size: 22px;
+    width: 100%;
+}
+
+.head2 p:nth-child(3) {
+    margin-top: 1%;
+    font-size: 23px;
+    width: 100%;
+    font-weight: 400;
+}
+
+.cardrow {
+    display: flex;
+    width: 94%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.card2 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 22px;
+    margin-top: 2%;
+}
+
+.stitle {
+    font-size: 21px;
+    margin-top: 2%;
+}
+
+.title3 {
+    color: white;
+    font-size: 40px;
+
+}
+
+.row4 {
+    margin-top: 5%;
+}
+
+.row5 {
+    width: 94%;
+    padding-bottom: 8%;
+
+}
+
+.rowcardy {
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ii {
+    font-size: 40px !important;
+    color: #daece9;
+}
+
+.cardy {
+    width: 23.8%;
+}
+
+.cardyp1 {
+    margin-top: 7%;
+    font-size: 25px;
+    color: #daece9;
+}
+
+.cardy p:nth-child(3) {
+    margin-top: 4%;
+    font-size: 20px;
+    color: #daece9;
+}
+
+.rowbottom {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp1 {
+    font-size: 50px;
+    margin-bottom: 2%;
+}
+
+.pp2 {
+    font-size: 26px;
+
+}
+.card1 img{
+    width:96%;
+}
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+
+@media screen and (max-width:760px) {
+
+    .row2{
+        flex-direction: column !important;
+    }
+    .row2 .col {
+        width: 100%;
+    }
+    .col2,.col3
+    {
+       display: none;
+    }
+   
+       .card,.card2
+       {
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+       }
+       .nav
+       {
+           justify-content: space-between;
+       }
+       .hidecol
+       {
+           display: flex !important;
+       }
+       #heading
+       {
+           font-size: 25px;
+       }
+       #p1
+       {
+           font-size: 15px;
+       }
+       .inpu {
+        width: 60%;
+        height: 30px;
+        border: 2px solid rgb(29, 68, 52);
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    .inpubtn {
+        background-color: rgb(58, 128, 99) !important;
+        padding: 2.5% 3.6%;
+        color: white;
+        font-weight: 700;
+        border-radius: 5px;
+    }
+    .col button {
+        font-size: 13px;
+    }
+    .head2 p:nth-child(1) {
+        font-size: 25px;
+    
+    }
+    
+    .head2 p:nth-child(2) {
+        margin-top: 1%;
+        font-size: 15px;
+        width: 100%;
+    }
+    
+    .head2 p:nth-child(3) {
+        margin-top: 1%;
+        font-size: 16px;
+        width: 100%;
+        font-weight: 400;
+    }
+    .cardrow{
+        flex-direction: column;
+        
+    }
+    .card{
+        margin-bottom: 8%;
+    }
+    .rowcardy
+    {
+        flex-direction: column;
+    }
+    .cardy{
+        width: 100%;
+        margin-top: 15%;
+    }
+
+.pp1 {
+    font-size: 25px;
+    margin-bottom: 2%;
+}
+
+.pp2 {
+    font-size: 15px;
+    width: 80%;
+    text-align: center;
+
+}
+.rowbottom
+{
+    height: 5%;
+}
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width:1600px) and (min-width:760px) {
+    .container
+    {
+        max-width: 1600px;
+    }
+ .col2,.col3
+ {
+    display: none;
+ }
+ .title {
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+.stitle {
+    font-size: 8px;
+    margin-top: 2%;
+}
+
+.title3 {
+    color: white;
+    font-size: 20px;
+
+}
+#ii {
+    font-size: 25px !important;
+    color: #daece9;
+}
+
+    .card,.card2
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav
+    {
+        justify-content: space-between;
+    }
+    .hidecol
+    {
+        display: flex !important;
+    }
+    .card1 img{
+        width:94%;
+    }
+    #heading
+    {
+        font-size: 40px;
+    }
+    #p1
+    {
+        font-size: 20px;
+    }
+    .col21
+    {
+        width: 80% !important;
+    }
+
+.head2 p:nth-child(1) {
+    font-size: 35px;
+
+}
+
+.head2 p:nth-child(2) {
+    margin-top: 1%;
+    font-size: 18px;
+    width: 100%;
+}
+
+.head2 p:nth-child(3) {
+    margin-top: 1%;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 400;
+}
+.title {
+    font-size: 15px;
+    margin-top: 2%;
+}
+
+.stitle {
+    font-size: 12px;
+    margin-top: 2%;
+}
+
+.title3 {
+    color: white;
+    font-size: 35px;
+
+}
+#ii {
+    font-size: 25px !important;
+    color: #daece9;
+}
+.cardyp1
+{
+    margin-top: 7%;
+    font-size: 18px;
+    color: #daece9;
+}
+.cardy p:nth-child(3) {
+    margin-top: 4%;
+    font-size: 13px;
+    color: #daece9;
+}
+
+.pp1 {
+    font-size: 30px;
+    margin-bottom: 2%;
+}
+
+.pp2 {
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+
+}
+.inpu {
+    width: 60%;
+    height: 30px;
+    border: 2px solid rgb(29, 68, 52);
+    border-radius: 5px;
+    font-size: 20px;
+}
+.form
+{
+    margin-bottom: 2%;
+}
+#tryFr,
+.inpubtn {
+    background-color: rgb(58, 128, 99) !important;
+    padding: 2.5% 3.6%;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.col button {
+    font-size: 14px;
+}
+}
